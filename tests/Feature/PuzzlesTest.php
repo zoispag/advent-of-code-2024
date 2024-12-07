@@ -15,4 +15,6 @@ it('will solve the puzzles', function (
     Models\Day1Puzzle2::name() => [Models\Day1Puzzle2::class, 31],
     Models\Day2Puzzle1::name() => [Models\Day2Puzzle1::class, 2],
     Models\Day2Puzzle2::name() => [Models\Day2Puzzle2::class, 4],
+    Models\Day3Puzzle1::name() => [Models\Day3Puzzle1::class, 161],
+    Models\Day3Puzzle2::name() => [Models\Day3Puzzle2::class, 48],
 ]);
