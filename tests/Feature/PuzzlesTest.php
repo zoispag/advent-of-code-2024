@@ -13,4 +13,6 @@ it('will solve the puzzles', function (
 })->with([
     Models\Day1Puzzle1::name() => [Models\Day1Puzzle1::class, 11],
     Models\Day1Puzzle2::name() => [Models\Day1Puzzle2::class, 31],
+    Models\Day2Puzzle1::name() => [Models\Day2Puzzle1::class, 2],
+    Models\Day2Puzzle2::name() => [Models\Day2Puzzle2::class, 4],
 ]);
